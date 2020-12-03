@@ -6,7 +6,7 @@ import LoadingDots from '../components/ui/LoadingDots';
 import Input from '../components/ui/Input';
 import Button from '../components/ui/Button';
 import Logo from '../components/icons/Logo';
-import GitHub from '../components/icons/GitHub';
+import Google from '../components/icons/Google';
 
 const SignIn = () => {
   const [email, setEmail] = useState('');
@@ -111,7 +111,7 @@ const SignIn = () => {
           disabled={loading}
           onClick={() => handleOAuthSignIn('google')}
         >
-          <GitHub />
+          <Google />
           <span className="ml-2">Continue with Google</span>
         </Button>
       </div>

@@ -109,10 +109,10 @@ const SignIn = () => {
           variant="slim"
           type="submit"
           disabled={loading}
-          onClick={() => handleOAuthSignIn('github')}
+          onClick={() => handleOAuthSignIn('google')}
         >
           <GitHub />
-          <span className="ml-2">Continue with GitHub</span>
+          <span className="ml-2">Continue with Google</span>
         </Button>
       </div>
     );

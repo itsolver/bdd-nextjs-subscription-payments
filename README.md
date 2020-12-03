@@ -11,7 +11,7 @@ The all-in-one starter kit for high-performance SaaS applications. With a few cl
 
 ## Demo
 
-- https://nextjs-subscription-payments-starter.vercel.app/
+- https://bdd-nextjs-subs-pays.vercel.app/
 
 [![Screenshot of demo](./public/demo.png)](https://nextjs-subscription-payments-starter.vercel.app/)
 

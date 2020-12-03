@@ -74,7 +74,7 @@ export default function Pricing({ products }) {
               (price) => price.interval === billingInterval
             );
             const priceString = new Intl.NumberFormat('en-US', {
-              style: 'currency',
+              style: 'decimal',
               currency: price.currency,
               minimumFractionDigits: 0
             }).format(price.unit_amount / 100);
@@ -97,7 +97,7 @@ export default function Pricing({ products }) {
                   <p className="mt-4 text-accents-5">{product.description}</p>
                   <p className="mt-8">
                     <span className="text-5xl font-extrabold white">
-                      {priceString}
+                      ${priceString}
                     </span>
                     <span className="text-base font-medium text-accents-8">
                       /{billingInterval}

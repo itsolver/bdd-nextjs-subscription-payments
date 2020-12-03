@@ -44,8 +44,7 @@ export default function Account() {
   const subscriptionPrice =
     subscription &&
     new Intl.NumberFormat('en-US', {
-      style: 'currency',
-      currency: subscription.prices.currency,
+      style: 'decimal', 
       minimumFractionDigits: 0
     }).format(subscription.prices.unit_amount / 100);
 
